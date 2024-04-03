@@ -24,7 +24,7 @@ function Navegacao() {
                <Link style={{color: "#A7A000"}} to="/depoimentos">Depoimentos</Link>
                 </li>
                 <li>
-               <Link style={{color: "#A7A000"}} to="/Login"></Link>
+               <Link style={{color: "#A7A000"}} to="/login">Login</Link>
                 </li>
              </ul>
            </div>

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Caesar Dressing", system-ui;
   line-height: 1.5;
   font-weight: 400;
 
@@ -30,6 +32,8 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+
+  font-family: "Caesar Dressing", system-ui;
   background-color: #F1EFB8;
 }
 
@@ -60,7 +64,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    
   }
   a:hover {
     color: #747bff;
