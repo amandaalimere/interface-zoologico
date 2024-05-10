@@ -14,12 +14,12 @@ function Home() {
     return (
         <>
             <Navegacao></Navegacao>
-            {/*<Welcome />
+            <Welcome />
             <div className="ctn-atracoes">
                 {componentes}
-            </div> */}
-            {/* <ImgCarrossel /> */}
-            <FormAnimal />
+            </div>
+            <ImgCarrossel />
+            {/* <FormAnimal /> */}
         </>
     );
 }

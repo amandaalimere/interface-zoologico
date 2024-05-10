@@ -1,12 +1,12 @@
+import ListaAnimais from '../../components/ListaAnimais/ListaAnimais';
 import Navegacao from '../../components/Navegacao/Navegacao';
 
-function Depoimentos() {
+function Depoimentos(){
     return(
-        <>
-            <Navegacao />
-            <h1><p style={{color:"#000"}}>NADA AQUI AINDA</p></h1>
-        </>
+    <>
+    <Navegacao/>
+    <ListaAnimais/>
+    </>
     );
 }
-
-export default Depoimentos
+export default Depoimentos;
